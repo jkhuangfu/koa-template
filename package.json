@@ -1,0 +1,16 @@
+{
+    "name":"koa-template",
+    "description": "koa-teplate",
+    "scripts": {
+        "start": "node ./app.js"
+    },
+    "dependencies": {
+        "ejs": "^2.6.1",
+        "koa": "^2.7.0",
+        "koa-bodyparser": "^4.2.1",
+        "koa-router": "^7.4.0",
+        "koa-session": "^5.12.0",
+        "koa-static": "^5.0.0",
+        "koa-views": "^6.2.0"
+    }
+}
