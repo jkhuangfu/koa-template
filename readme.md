@@ -6,6 +6,11 @@
 
 2、yarn start || npm start
 ```
+
+``
+启动成功后访问地址为:http://localhost:8000
+
+``
 ``
 PS:此模板为 koa 程序模板。已包含以下配置功能
 ``

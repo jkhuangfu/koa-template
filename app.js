@@ -5,7 +5,6 @@ const bodyParser = require('koa-bodyparser');
 const session = require('koa-session');
 const koaStatic = require('koa-static');
 const app = new koa();
-const t = require('./router')
 const user = require('./router/user')
 //session cookie 加密信息
 app.keys = ['W@7712duagdb6hddhgW!']
@@ -41,7 +40,6 @@ app
     
     .use(bodyParser())
     //路由
-    .use(t.routes())
     .use(user.routes())
     //处理 error
     .use(err)
